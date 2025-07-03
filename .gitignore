@@ -29,15 +29,6 @@ Thumbs.db
 *.7z
 
 # Large images and binaries (customize as needed)
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.psd
-*.tiff
-*.ico
-*.glb
 
 # Output CSS (if generated)
 output.css
