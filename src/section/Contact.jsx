@@ -111,7 +111,7 @@ const Contact = () => {
       id="message"
       name="message"
       type="text"
-      className="field-input text-black  field-input-focus h-10" // h-10 to match label height
+      className="field-input text-black  field-input-focus w-[50%] h-[190px]" // h-10 to match label height
       placeholder="Share your thoughts..."
       autoComplete="message"
       value={formData.message}
