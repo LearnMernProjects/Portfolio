@@ -1,0 +1,93 @@
+/*
+  NOTE: If you see a yellow warning on @apply, it's just your editor not recognizing Tailwind's custom directives.
+  Your build will work fine. For best experience, install the Tailwind CSS IntelliSense extension in VS Code.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@theme{--color-primary: #030412;
+  --color-midnight: #06091f;
+  --color-navy: #161a31;
+  --color-indigo: #1f1e39;
+  --color-storm: #282b4b;
+  --color-aqua: #33c2cc;
+  --color-mint: #57db96;
+  --color-royal: #5c33cc;
+  --color-lavender: #7a57db;
+  --color-fuchsia: #ca2f8c;
+  --color-orange: #cc6033;
+  --color-sand: #d6995c;
+  --color-coral: #ea4884;
+  
+}
+
+.css1{
+  font-size: 37px;
+  font-family: Geneva ;
+  font-weight: 200;
+  margin-left:36px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.css2{
+  font-size: 50px;
+  font-family:  Geneva ;
+  font-weight: 400;
+  margin-left:36px;
+  font-weight: bold;
+}
+/* About Section */
+.grid-1 {
+  @apply row-span-2 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200;
+}
+.grid-2 {
+  @apply row-span-1 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200;
+}
+.grid-3 {
+  @apply row-span-1 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200;
+}
+.grid-4 {
+  @apply row-span-1 md:col-span-2 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200;
+}
+.grid-5 {
+  @apply row-span-1 md:col-span-4 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200;
+}
+
+.grid-default-color {
+  @apply  p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl;
+}
+
+.grid-special-color {
+  @apply  p-6 bg-gradient-to-b from-royal to-lavender rounded-2xl;
+}
+.grid-black-color {
+  @apply p-6 bg-gradient-to-tl from-[#3A3A3A] via-[#242424] to-[#3A3A3A] rounded-2xl;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(calc(var(--angle) * 1deg))
+      translateY(calc(var(--radius) * 2px)) 
+      rotate(calc(var(--angle) * -1deg));
+      transform-origin: center;
+  }
+  100% {
+    transform: rotate(calc(var(--angle) * 1deg + 360deg))
+      translateY(calc(var(--radius) * 2px)) 
+      rotate(calc(var(--angle) * -1deg - 360deg));
+      transform-origin: center;
+  }
+}
+
+.animate-orbit {
+  animation: orbit calc(var(--duration, 20) * 1s) linear infinite;
+  transform-origin: center;
+}
+.nav-link {
+  cursor: pointer;
+  z-index: 50;
+}
+
+.nav-links a:hover {
+  color: var(--color-sand);
+}
