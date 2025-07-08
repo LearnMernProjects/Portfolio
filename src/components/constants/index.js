@@ -218,7 +218,7 @@ export const myProjects = [
      },
      {
        name: "Github",
-       href: "https://github.com/VirajNaik8055",
+       href: "https://github.com/LearnMernProjects",
        icon: "/assets/socials/25231.png",
      },
    ];
