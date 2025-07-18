@@ -64,15 +64,20 @@ role.
             <Cards style={{ rotate: "20deg", top: "80%", left: "58%" }} containerRef={grid2Container} text="GSAP" />
             <Cards style={{ rotate: "20deg", top: "50%", left: "68%" }} containerRef={grid2Container} text="FRAMER MOTION" />
             <Cards style={{ rotate: "30deg", top: "10%", left: "78%" }} containerRef={grid2Container} text="THREE JS" />
-            <Cards style={{ rotate: "30deg", top: "50%", left: "70%" }} containerRef={grid2Container} image="/assets/logos/mongodb.PNG" />
+            <Cards style={{rotate: "-45deg", top: "5%", left: "10%" , objectFit: "cover" }} containerRef={grid2Container}  image="/assets/logos/images.jpg" />
+            <Cards style={{rotate: "-45deg", top: "5%", left: "70%"  }} containerRef={grid2Container}  image="/assets/logos/GSAP.png" />
+            <Cards style={{rotate: "-45deg", top: "5%", left: "70%"  }} containerRef={grid2Container}  image="/assets/logos/bootstrap.png" />
+           <Cards style={{ rotate: "30deg", top: "50%", left: "70%" }} containerRef={grid2Container} image="/assets/logos/mongodb.PNG" />
             <Cards style={{rotate: "-45deg", top: "30%", left: "25%" }} containerRef={grid2Container} image="/assets/logos/react.svg" />
             <Cards style={{rotate: "-45deg", top: "5%", left: "25%" }} containerRef={grid2Container}  image="/assets/logos/tailwindcss.svg" />
             <Cards style={{rotate: "-45deg", top: "5%", left: "70%" }} containerRef={grid2Container}  image="/assets/logos/next.jpg" />
-            <Cards style={{rotate: "-45deg", top: "5%", left: "70%" }} containerRef={grid2Container}  image="/assets/logos/css3.svg" />
-            <Cards style={{rotate: "-45deg", top: "5%", left: "70%" }} containerRef={grid2Container}  image="/assets/logos/HTML5_Logo_512.PNG" />
+            <Cards style={{rotate: "-45deg", top: "5%", left: "70%"  , objectFit: "cover"}} containerRef={grid2Container}  image="/assets/logos/css3.svg" />
+            <Cards style={{rotate: "-45deg", top: "5%", left: "70%" , objectFit: "cover" }} containerRef={grid2Container}  image="/assets/logos/HTML5_Logo_512.PNG" />
             <Cards style={{rotate: "-45deg", top: "5%", left: "70%" }} containerRef={grid2Container}  image="/assets/logos/framer-motion.svg" />
-            <Cards style={{rotate: "-45deg", top: "5%", left: "70%" }} containerRef={grid2Container}  image="/assets/logos/js.webp" />
-            <Cards style={{rotate: "-45deg", top: "5%", left: "70%" }} containerRef={grid2Container}  image="/assets/logos/Three.png" />
+            <Cards style={{rotate: "-45deg", top: "5%", left: "70%"  }} containerRef={grid2Container}  image="/assets/logos/js.webp" />
+            <Cards style={{rotate: "-45deg", top: "5%", left: "70%"  }} containerRef={grid2Container}  image="/assets/logos/Three.png" />
+           
+
           </div>
         </div>
         </section>
